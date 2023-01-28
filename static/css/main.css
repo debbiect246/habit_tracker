@@ -8,3 +8,12 @@ body {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
+.header,
+.main{
+  max-width: 40rem;
+  margin: 0, auto;
+  padding: 1rem;
+
+}
+
