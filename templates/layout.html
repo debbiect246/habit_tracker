@@ -16,6 +16,7 @@
             <h1 class="header__logo"></h1><a href="{{ url_for('index') }}" class="header__link">Habits</a></h1>
             <!-- checks if we are in add page and puts link in for add page-->
             <div>
+                <br>
             {% if "add" not in request.endpoint %}
                 <a href="{{ url_for('add_habit') }}" class="header__link">+ Add new</a>
             {% endif %}
